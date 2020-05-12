@@ -1,0 +1,10 @@
+D:\GitHub\C#\Major Assignment\bin\Debug\Major Assignment.exe.config
+D:\GitHub\C#\Major Assignment\bin\Debug\Major Assignment.exe
+D:\GitHub\C#\Major Assignment\bin\Debug\Major Assignment.pdb
+D:\GitHub\C#\Major Assignment\obj\Debug\Major Assignment.csprojAssemblyReference.cache
+D:\GitHub\C#\Major Assignment\obj\Debug\Major_Assignment.Form1.resources
+D:\GitHub\C#\Major Assignment\obj\Debug\Major_Assignment.Properties.Resources.resources
+D:\GitHub\C#\Major Assignment\obj\Debug\Major Assignment.csproj.GenerateResource.cache
+D:\GitHub\C#\Major Assignment\obj\Debug\Major Assignment.csproj.CoreCompileInputs.cache
+D:\GitHub\C#\Major Assignment\obj\Debug\Major Assignment.exe
+D:\GitHub\C#\Major Assignment\obj\Debug\Major Assignment.pdb
