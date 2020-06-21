@@ -16,5 +16,13 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var ageInYears = dateTimePicker2.Value.Year - dateTimePicker1.Value.Year;
+            var ageInMonths = dateTimePicker2.Value.Month - dateTimePicker1.Value.Month;
+            var ageInDays = dateTimePicker2.Value.Day - dateTimePicker1.Value.Day;
+            textBox1.Text = "You are " + ageInDays + " Days " + ageInMonths + " Months and " + ageInYears + " Years Old";
+        }
     }
 }
