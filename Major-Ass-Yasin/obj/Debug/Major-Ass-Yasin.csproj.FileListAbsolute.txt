@@ -1,0 +1,10 @@
+D:\GitHub\C-Sharp-Practice\Major-Ass-Yasin\bin\Debug\Major-Ass-Yasin.exe.config
+D:\GitHub\C-Sharp-Practice\Major-Ass-Yasin\bin\Debug\Major-Ass-Yasin.exe
+D:\GitHub\C-Sharp-Practice\Major-Ass-Yasin\bin\Debug\Major-Ass-Yasin.pdb
+D:\GitHub\C-Sharp-Practice\Major-Ass-Yasin\obj\Debug\Major-Ass-Yasin.csprojAssemblyReference.cache
+D:\GitHub\C-Sharp-Practice\Major-Ass-Yasin\obj\Debug\Major_Ass_Yasin.Form1.resources
+D:\GitHub\C-Sharp-Practice\Major-Ass-Yasin\obj\Debug\Major_Ass_Yasin.Properties.Resources.resources
+D:\GitHub\C-Sharp-Practice\Major-Ass-Yasin\obj\Debug\Major-Ass-Yasin.csproj.GenerateResource.cache
+D:\GitHub\C-Sharp-Practice\Major-Ass-Yasin\obj\Debug\Major-Ass-Yasin.csproj.CoreCompileInputs.cache
+D:\GitHub\C-Sharp-Practice\Major-Ass-Yasin\obj\Debug\Major-Ass-Yasin.exe
+D:\GitHub\C-Sharp-Practice\Major-Ass-Yasin\obj\Debug\Major-Ass-Yasin.pdb
