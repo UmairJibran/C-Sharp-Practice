@@ -19,10 +19,10 @@ namespace Major_Ass_Yasin
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var today = dateTimePicker2.Value.Year;
-            var byear = dateTimePicker1.Value.Year;
-            var age = today - byear;
-            textBox1.Text = "" + age;
+            var thisDate = dateTimePicker2.Value.Year;
+            var birth = dateTimePicker1.Value.Year;
+            var currentAge = thisDate - birth;
+            textBox1.Text = currentAge.ToString();
         }
     }
 }
