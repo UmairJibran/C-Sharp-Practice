@@ -16,5 +16,19 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e) //table
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e) //reset
+        {
+
+        }
+        private void button3_Click(object sender, EventArgs e) //exit
+        {
+
+        }
     }
 }
