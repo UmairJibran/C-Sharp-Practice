@@ -21,5 +21,20 @@ namespace Minor_ass_Yasin
         {
             Application.Exit();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            listBox1.Items.Clear();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int entry = int.Parse(textBox1.Text);
+            for (int i = 0; i < 30;)
+            {
+                listBox1.Items.Add(entry + " times " + ++i + " equals " + i * entry);
+            }
+        }
     }
 }
