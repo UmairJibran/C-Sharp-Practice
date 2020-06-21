@@ -1,0 +1,9 @@
+D:\GitHub\C-Sharp-Practice\Minor-ass-Yasin\bin\Debug\Minor-ass-Yasin.exe.config
+D:\GitHub\C-Sharp-Practice\Minor-ass-Yasin\bin\Debug\Minor-ass-Yasin.exe
+D:\GitHub\C-Sharp-Practice\Minor-ass-Yasin\bin\Debug\Minor-ass-Yasin.pdb
+D:\GitHub\C-Sharp-Practice\Minor-ass-Yasin\obj\Debug\Minor_ass_Yasin.Form1.resources
+D:\GitHub\C-Sharp-Practice\Minor-ass-Yasin\obj\Debug\Minor_ass_Yasin.Properties.Resources.resources
+D:\GitHub\C-Sharp-Practice\Minor-ass-Yasin\obj\Debug\Minor-ass-Yasin.csproj.GenerateResource.cache
+D:\GitHub\C-Sharp-Practice\Minor-ass-Yasin\obj\Debug\Minor-ass-Yasin.csproj.CoreCompileInputs.cache
+D:\GitHub\C-Sharp-Practice\Minor-ass-Yasin\obj\Debug\Minor-ass-Yasin.exe
+D:\GitHub\C-Sharp-Practice\Minor-ass-Yasin\obj\Debug\Minor-ass-Yasin.pdb
