@@ -1,0 +1,10 @@
+D:\GitHub\C-Sharp-Practice\BMI-Churail\bin\Debug\BMI-Churail.exe.config
+D:\GitHub\C-Sharp-Practice\BMI-Churail\bin\Debug\BMI-Churail.exe
+D:\GitHub\C-Sharp-Practice\BMI-Churail\bin\Debug\BMI-Churail.pdb
+D:\GitHub\C-Sharp-Practice\BMI-Churail\obj\Debug\BMI-Churail.csprojAssemblyReference.cache
+D:\GitHub\C-Sharp-Practice\BMI-Churail\obj\Debug\BMI_Churail.Form1.resources
+D:\GitHub\C-Sharp-Practice\BMI-Churail\obj\Debug\BMI_Churail.Properties.Resources.resources
+D:\GitHub\C-Sharp-Practice\BMI-Churail\obj\Debug\BMI-Churail.csproj.GenerateResource.cache
+D:\GitHub\C-Sharp-Practice\BMI-Churail\obj\Debug\BMI-Churail.csproj.CoreCompileInputs.cache
+D:\GitHub\C-Sharp-Practice\BMI-Churail\obj\Debug\BMI-Churail.exe
+D:\GitHub\C-Sharp-Practice\BMI-Churail\obj\Debug\BMI-Churail.pdb
