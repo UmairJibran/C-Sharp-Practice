@@ -1,0 +1,10 @@
+C:\Users\umair\source\repos\BMI-Kamal\bin\Debug\BMI-Kamal.exe.config
+C:\Users\umair\source\repos\BMI-Kamal\bin\Debug\BMI-Kamal.exe
+C:\Users\umair\source\repos\BMI-Kamal\bin\Debug\BMI-Kamal.pdb
+C:\Users\umair\source\repos\BMI-Kamal\obj\Debug\BMI-Kamal.csprojAssemblyReference.cache
+C:\Users\umair\source\repos\BMI-Kamal\obj\Debug\BMI_Kamal.Form1.resources
+C:\Users\umair\source\repos\BMI-Kamal\obj\Debug\BMI_Kamal.Properties.Resources.resources
+C:\Users\umair\source\repos\BMI-Kamal\obj\Debug\BMI-Kamal.csproj.GenerateResource.cache
+C:\Users\umair\source\repos\BMI-Kamal\obj\Debug\BMI-Kamal.csproj.CoreCompileInputs.cache
+C:\Users\umair\source\repos\BMI-Kamal\obj\Debug\BMI-Kamal.exe
+C:\Users\umair\source\repos\BMI-Kamal\obj\Debug\BMI-Kamal.pdb
