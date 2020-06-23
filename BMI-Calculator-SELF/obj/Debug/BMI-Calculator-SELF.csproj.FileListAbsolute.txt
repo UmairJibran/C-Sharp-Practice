@@ -1,0 +1,10 @@
+D:\GitHub\C-Sharp-Practice\BMI-Calculator-SELF\bin\Debug\BMI-Calculator-SELF.exe.config
+D:\GitHub\C-Sharp-Practice\BMI-Calculator-SELF\bin\Debug\BMI-Calculator-SELF.exe
+D:\GitHub\C-Sharp-Practice\BMI-Calculator-SELF\bin\Debug\BMI-Calculator-SELF.pdb
+D:\GitHub\C-Sharp-Practice\BMI-Calculator-SELF\obj\Debug\BMI-Calculator-SELF.csprojAssemblyReference.cache
+D:\GitHub\C-Sharp-Practice\BMI-Calculator-SELF\obj\Debug\BMI_Calculator_SELF.Form1.resources
+D:\GitHub\C-Sharp-Practice\BMI-Calculator-SELF\obj\Debug\BMI_Calculator_SELF.Properties.Resources.resources
+D:\GitHub\C-Sharp-Practice\BMI-Calculator-SELF\obj\Debug\BMI-Calculator-SELF.csproj.GenerateResource.cache
+D:\GitHub\C-Sharp-Practice\BMI-Calculator-SELF\obj\Debug\BMI-Calculator-SELF.csproj.CoreCompileInputs.cache
+D:\GitHub\C-Sharp-Practice\BMI-Calculator-SELF\obj\Debug\BMI-Calculator-SELF.exe
+D:\GitHub\C-Sharp-Practice\BMI-Calculator-SELF\obj\Debug\BMI-Calculator-SELF.pdb
