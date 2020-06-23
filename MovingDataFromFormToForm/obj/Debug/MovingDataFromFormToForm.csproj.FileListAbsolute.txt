@@ -1,0 +1,11 @@
+D:\GitHub\C-Sharp-Practice\MovingDataFromFormToForm\bin\Debug\MovingDataFromFormToForm.exe.config
+D:\GitHub\C-Sharp-Practice\MovingDataFromFormToForm\bin\Debug\MovingDataFromFormToForm.exe
+D:\GitHub\C-Sharp-Practice\MovingDataFromFormToForm\bin\Debug\MovingDataFromFormToForm.pdb
+D:\GitHub\C-Sharp-Practice\MovingDataFromFormToForm\obj\Debug\MovingDataFromFormToForm.csprojAssemblyReference.cache
+D:\GitHub\C-Sharp-Practice\MovingDataFromFormToForm\obj\Debug\MovingDataFromFormToForm.Form1.resources
+D:\GitHub\C-Sharp-Practice\MovingDataFromFormToForm\obj\Debug\MovingDataFromFormToForm.Form2.resources
+D:\GitHub\C-Sharp-Practice\MovingDataFromFormToForm\obj\Debug\MovingDataFromFormToForm.Properties.Resources.resources
+D:\GitHub\C-Sharp-Practice\MovingDataFromFormToForm\obj\Debug\MovingDataFromFormToForm.csproj.GenerateResource.cache
+D:\GitHub\C-Sharp-Practice\MovingDataFromFormToForm\obj\Debug\MovingDataFromFormToForm.csproj.CoreCompileInputs.cache
+D:\GitHub\C-Sharp-Practice\MovingDataFromFormToForm\obj\Debug\MovingDataFromFormToForm.exe
+D:\GitHub\C-Sharp-Practice\MovingDataFromFormToForm\obj\Debug\MovingDataFromFormToForm.pdb
