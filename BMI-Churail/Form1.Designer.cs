@@ -43,6 +43,7 @@
             this.height_ayesha.Name = "height_ayesha";
             this.height_ayesha.Size = new System.Drawing.Size(276, 20);
             this.height_ayesha.TabIndex = 0;
+            this.height_ayesha.Text = "in inches";
             // 
             // width_ayesha
             // 
@@ -50,6 +51,7 @@
             this.width_ayesha.Name = "width_ayesha";
             this.width_ayesha.Size = new System.Drawing.Size(276, 20);
             this.width_ayesha.TabIndex = 1;
+            this.width_ayesha.Text = "in pounds";
             // 
             // calculate_ayesha
             // 
