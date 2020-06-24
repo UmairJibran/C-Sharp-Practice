@@ -18,8 +18,15 @@ namespace Question_5
         {
             InitializeComponent();
         }
-        private void button1_Click(object sender, EventArgs e)
-        {
+        private void button1_Click(object sender, EventArgs e){
+            WebClient myWebClient = new WebClient();
+            string remoteUri = textBox1.Text.ToLower();
+            string fileName; 
+            string[] domainBreakdown= remoteUri.Split('/');
+            fileName = domainBreakdown[domainBreakdown.Length-1];
+            MessageBox.Show(fileName);
+            myWebClient.DownloadFile(remoteUri, fileName);
+            MessageBox.Show("Successfully Downloaded File " + fileName + " from " + remoteUri);
         }
     }
 }
