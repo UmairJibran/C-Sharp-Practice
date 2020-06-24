@@ -17,15 +17,28 @@ namespace Question_4
             InitializeComponent();
         }
         String carModel = "";
-
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
+        float rent = 00;
+        private void radioButton1_CheckedChanged(object sender, EventArgs e) { carModel = "C"; } //corola
+        private void radioButton2_CheckedChanged(object sender, EventArgs e) { carModel = "H"; } //Honda Civic
+        private void radioButton3_CheckedChanged(object sender, EventArgs e) { carModel = "N"; } //Nissan
+        private void button1_Click(object sender, EventArgs e){
+            float days = float.Parse(textBox1.Text);
+            float mileage = float.Parse(textBox2.Text);
+            switch (carModel){
+                case "C":{ //Corolla
+                    rent = 2 * (days * mileage);
+                    break;
+                }
+                case "H":{ //Honda
+                    rent = 3 * (days * mileage);
+                    break;
+                }
+                case "N":{ //Nissan
+                    rent = 4 * (days * mileage);
+                    break;
+                }
+            }
+            textBox3.Text = "$" + rent;
         }
     }
 }

@@ -105,6 +105,7 @@
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Honda Civic";
             this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // radioButton3
             // 
@@ -116,6 +117,7 @@
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Nissan";
             this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
             // textBox1
             // 
@@ -133,6 +135,7 @@
             // 
             // textBox3
             // 
+            this.textBox3.Enabled = false;
             this.textBox3.Location = new System.Drawing.Point(116, 167);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);
