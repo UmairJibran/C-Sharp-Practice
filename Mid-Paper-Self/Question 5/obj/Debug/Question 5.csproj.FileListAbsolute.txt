@@ -1,0 +1,10 @@
+D:\GitHub\C-Sharp-Practice\Mid-Paper-Self\Question 5\bin\Debug\Question 5.exe.config
+D:\GitHub\C-Sharp-Practice\Mid-Paper-Self\Question 5\bin\Debug\Question 5.exe
+D:\GitHub\C-Sharp-Practice\Mid-Paper-Self\Question 5\bin\Debug\Question 5.pdb
+D:\GitHub\C-Sharp-Practice\Mid-Paper-Self\Question 5\obj\Debug\Question 5.csprojAssemblyReference.cache
+D:\GitHub\C-Sharp-Practice\Mid-Paper-Self\Question 5\obj\Debug\Question_5.Form1.resources
+D:\GitHub\C-Sharp-Practice\Mid-Paper-Self\Question 5\obj\Debug\Question_5.Properties.Resources.resources
+D:\GitHub\C-Sharp-Practice\Mid-Paper-Self\Question 5\obj\Debug\Question 5.csproj.GenerateResource.cache
+D:\GitHub\C-Sharp-Practice\Mid-Paper-Self\Question 5\obj\Debug\Question 5.csproj.CoreCompileInputs.cache
+D:\GitHub\C-Sharp-Practice\Mid-Paper-Self\Question 5\obj\Debug\Question 5.exe
+D:\GitHub\C-Sharp-Practice\Mid-Paper-Self\Question 5\obj\Debug\Question 5.pdb
