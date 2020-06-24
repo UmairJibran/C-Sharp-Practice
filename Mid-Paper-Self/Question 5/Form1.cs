@@ -21,7 +21,7 @@ namespace Question_5
         private void button1_Click(object sender, EventArgs e){
             WebClient myWebClient = new WebClient();
             string remoteUri = textBox1.Text.ToLower();
-            string fileName; 
+            string fileName;
             string[] domainBreakdown= remoteUri.Split('/');
             fileName = domainBreakdown[domainBreakdown.Length-1];
             MessageBox.Show(fileName);
