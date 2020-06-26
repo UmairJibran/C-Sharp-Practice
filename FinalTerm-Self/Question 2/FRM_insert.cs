@@ -30,9 +30,7 @@ namespace Question_2
                 cmd.ExecuteNonQuery();
             }
         }
-
         private void FRM_insert_Load(object sender, EventArgs e){conn.Open();}
-
         private void btn_rst_Click(object sender, EventArgs e){
             txtbx_name.Clear();
             txtbx_pprice.Clear();

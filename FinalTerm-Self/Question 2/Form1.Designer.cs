@@ -64,6 +64,7 @@
             this.btn_dlt.TabIndex = 1;
             this.btn_dlt.Text = "Delete";
             this.btn_dlt.UseVisualStyleBackColor = true;
+            this.btn_dlt.Click += new System.EventHandler(this.btn_dlt_Click);
             // 
             // btn_upd
             // 

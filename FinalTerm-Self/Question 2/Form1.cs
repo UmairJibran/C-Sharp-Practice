@@ -22,5 +22,11 @@ namespace Question_2
             FRM_insert insert = new FRM_insert();
             insert.Show();
         }
+
+        private void btn_dlt_Click(object sender, EventArgs e)
+        {
+            FRM_dlt dlt = new FRM_dlt();
+            dlt.Show();
+        }
     }
 }
