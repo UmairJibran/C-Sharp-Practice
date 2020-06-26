@@ -25,7 +25,26 @@ namespace Question_1
 
         private void btn_update_Click(object sender, EventArgs e)
         {
-
+            conn.Open();
+            if(conn.State == ConnectionState.Open)
+            {
+                int id = int.Parse(txtbx_id.Text);
+                string first_name = txtbx_fname.Text;
+                string last_name = txtbx_lname.Text;
+                int age = int.Parse(txtbx_age.Text);
+                string sql = "UPDATE `final_exam`.`student_table` SET `student_first_name` = '"+first_name+"', `student_last_name` = '"+last_name+"', `student_age`="+age+" WHERE (`student_id` = '" + id+"');";
+                MySqlCommand cmd = new MySqlCommand(sql, conn);
+                cmd.ExecuteNonQuery();
+                txtbx_age.Clear();
+                txtbx_fname.Clear();
+                txtbx_id.Clear();
+                txtbx_lname.Clear();
+                conn.Close();
+            }
+            else
+            {
+                MessageBox.Show("Connection Failed");
+            }
         }
     }
 }

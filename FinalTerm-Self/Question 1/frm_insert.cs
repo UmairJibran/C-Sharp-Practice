@@ -32,7 +32,7 @@ namespace Question_1
                 string first_name = txtbx_fname.Text;
                 string last_name = txtbx_lname.Text;
                 int age = int.Parse(txtbx_age.Text);
-                string sql = "INSERT INTO `final_exam`.`student_table` (`student_id`, `student_first_name`, `student_last_namel`, `student_age`) VALUES (" + id + ", '" + first_name + "', '" + last_name + "', " + age + ");";
+                string sql = "INSERT INTO `final_exam`.`student_table` (`student_id`, `student_first_name`, `student_last_name`, `student_age`) VALUES (" + id + ", '" + first_name + "', '" + last_name + "', " + age + ");";
                 MySqlCommand cmd = new MySqlCommand(sql,conn);
                 cmd.ExecuteNonQuery();
                 txtbx_id.Clear();
