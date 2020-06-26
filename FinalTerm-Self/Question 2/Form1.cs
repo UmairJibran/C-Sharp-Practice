@@ -16,5 +16,11 @@ namespace Question_2
         {
             InitializeComponent();
         }
+
+        private void btn_ins_Click(object sender, EventArgs e)
+        {
+            FRM_insert insert = new FRM_insert();
+            insert.Show();
+        }
     }
 }
