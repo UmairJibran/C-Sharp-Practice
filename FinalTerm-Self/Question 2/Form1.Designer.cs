@@ -74,6 +74,7 @@
             this.btn_upd.TabIndex = 1;
             this.btn_upd.Text = "Update";
             this.btn_upd.UseVisualStyleBackColor = true;
+            this.btn_upd.Click += new System.EventHandler(this.btn_upd_Click);
             // 
             // btn_view
             // 

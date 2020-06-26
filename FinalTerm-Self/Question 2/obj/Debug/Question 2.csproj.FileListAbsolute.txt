@@ -26,3 +26,4 @@ D:\GitHub\C-Sharp-Practice\FinalTerm-Self\Question 2\obj\Debug\Question 2.csproj
 D:\GitHub\C-Sharp-Practice\FinalTerm-Self\Question 2\obj\Debug\Question 2.exe
 D:\GitHub\C-Sharp-Practice\FinalTerm-Self\Question 2\obj\Debug\Question 2.pdb
 D:\GitHub\C-Sharp-Practice\FinalTerm-Self\Question 2\obj\Debug\Question_2.FRM_dlt.resources
+D:\GitHub\C-Sharp-Practice\FinalTerm-Self\Question 2\obj\Debug\Question_2.FRM_upd.resources

@@ -17,16 +17,17 @@ namespace Question_2
             InitializeComponent();
         }
 
-        private void btn_ins_Click(object sender, EventArgs e)
-        {
+        private void btn_ins_Click(object sender, EventArgs e){
             FRM_insert insert = new FRM_insert();
             insert.Show();
         }
-
-        private void btn_dlt_Click(object sender, EventArgs e)
-        {
+        private void btn_dlt_Click(object sender, EventArgs e){
             FRM_dlt dlt = new FRM_dlt();
             dlt.Show();
+        }
+        private void btn_upd_Click(object sender, EventArgs e){
+            FRM_upd upd = new FRM_upd();
+            upd.Show();
         }
     }
 }
