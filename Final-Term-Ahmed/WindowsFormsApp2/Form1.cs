@@ -27,10 +27,9 @@ namespace WindowsFormsApp1
             MySqlConnection connection = new MySqlConnection("datasource=localhost;port=3306;username=root;password=root");
             connection.Open();
             string id = textBox1.Text;
-            string fname = textBox2.Text;
-            string lname = textBox3.Text;
-            string age = textBox4.Text;
-            string query = "INSERT INTO `myfinalpaper`.`question1` (`id`, `fname`, `lname`, `age`) VALUES " + "(" + id + ", '" + fname + "', '" + lname + "', " + age + ");";
+            string name = textBox2.Text;
+            string price = textBox4.Text;
+            string query = "INSERT INTO `myfinalpaper`.`question2` (`id`, `name`, `price`) VALUES " + "(" + id + ", '" + name + "'," + price + ");";
             var command = new MySqlCommand(query, connection);
             command.ExecuteNonQuery();
         }
@@ -38,11 +37,11 @@ namespace WindowsFormsApp1
         private void button2_Click(object sender, EventArgs e)
         {
             MySqlConnection connection = new MySqlConnection("datasource=localhost;port=3306;username=root;password=root");
-            MySqlDataAdapter myadapter = new MySqlDataAdapter("SELECT * FROM myfinalpaper.question1", connection);
+            MySqlDataAdapter myadapter = new MySqlDataAdapter("SELECT * FROM myfinalpaper.question2", connection);
             connection.Open();
             DataSet ds = new DataSet();
-            myadapter.Fill(ds, "question1");
-            dataGridView1.DataSource = ds.Tables["question1"];
+            myadapter.Fill(ds, "question2");
+            dataGridView1.DataSource = ds.Tables["question2"];
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -50,7 +49,7 @@ namespace WindowsFormsApp1
             string id = textBox1.Text;
             MySqlConnection connection = new MySqlConnection("datasource=localhost;port=3306;username=root;password=root");
             connection.Open();
-            string query = "DELETE FROM myfinalpaper.question1 WHERE `id` = '" + id + "';";
+            string query = "DELETE FROM myfinalpaper.question2 WHERE `id` = '" + id + "';";
             MySqlCommand command = new MySqlCommand(query, connection);
             command.ExecuteNonQuery();
         }
@@ -60,10 +59,9 @@ namespace WindowsFormsApp1
             MySqlConnection connection = new MySqlConnection("datasource=localhost;port=3306;username=root;password=root");
             connection.Open();
             string id = textBox1.Text;
-            string fname = textBox2.Text;
-            string lname = textBox3.Text;
-            string age = textBox4.Text;
-            string query = "UPDATE `myfinalpaper`.`question1` SET `fname` = '" + fname + "', `lname` = '" + lname + "', `age` = '" + age + "' WHERE (`id` = '" + id+"');";
+            string name = textBox2.Text;
+            string price = textBox4.Text;
+            string query = "UPDATE `myfinalpaper`.`question2` SET `name` = '" + name + "', `price` = '" + price + "' WHERE (`id` = '" + id+"');";
             MySqlCommand command = new MySqlCommand(query, connection);
             command.ExecuteNonQuery();
         }
@@ -72,11 +70,11 @@ namespace WindowsFormsApp1
         {
             string name = textBox5.Text;
             MySqlConnection connection = new MySqlConnection("datasource=localhost;port=3306;username=root;password=root");
-            MySqlDataAdapter myadapter = new MySqlDataAdapter("SELECT * FROM myfinalpaper.question1 WHERE `fname` = '"+name+"';", connection);
+            MySqlDataAdapter myadapter = new MySqlDataAdapter("SELECT * FROM myfinalpaper.question2 WHERE `name` = '"+name+"';", connection);
             connection.Open();
             DataSet ds = new DataSet();
-            myadapter.Fill(ds, "question1");
-            dataGridView1.DataSource = ds.Tables["question1"];
+            myadapter.Fill(ds, "question2");
+            dataGridView1.DataSource = ds.Tables["question2"];
         }
     }
 }
