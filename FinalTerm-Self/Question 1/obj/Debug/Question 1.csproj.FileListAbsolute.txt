@@ -9,3 +9,6 @@ D:\GitHub\C-Sharp-Practice\FinalTerm-Self\Question 1\obj\Debug\Question 1.csproj
 D:\GitHub\C-Sharp-Practice\FinalTerm-Self\Question 1\obj\Debug\Question 1.csproj.CoreCompileInputs.cache
 D:\GitHub\C-Sharp-Practice\FinalTerm-Self\Question 1\obj\Debug\Question 1.exe
 D:\GitHub\C-Sharp-Practice\FinalTerm-Self\Question 1\obj\Debug\Question 1.pdb
+D:\GitHub\C-Sharp-Practice\FinalTerm-Self\Question 1\obj\Debug\Question_1.FRM_delete_rec.resources
+D:\GitHub\C-Sharp-Practice\FinalTerm-Self\Question 1\obj\Debug\Question_1.FRM_update_rec.resources
+D:\GitHub\C-Sharp-Practice\FinalTerm-Self\Question 1\obj\Debug\Question_1.FRM_view_rec.resources

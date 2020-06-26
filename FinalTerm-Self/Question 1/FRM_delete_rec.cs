@@ -16,5 +16,10 @@ namespace Question_1
         {
             InitializeComponent();
         }
+
+        private void FRM_delete_rec_Load(object sender, EventArgs e)
+        {
+            txtbx_id.Focus();
+        }
     }
 }

@@ -81,6 +81,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FRM_delete_rec";
             this.Text = "Delete Record";
+            this.Load += new System.EventHandler(this.FRM_delete_rec_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

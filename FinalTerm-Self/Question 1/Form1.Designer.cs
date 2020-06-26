@@ -67,6 +67,7 @@
             this.btn_update.TabIndex = 2;
             this.btn_update.Text = "Update Record";
             this.btn_update.UseVisualStyleBackColor = true;
+            this.btn_update.Click += new System.EventHandler(this.btn_update_Click);
             // 
             // btn_view
             // 
@@ -77,6 +78,7 @@
             this.btn_view.TabIndex = 3;
             this.btn_view.Text = "View All Records";
             this.btn_view.UseVisualStyleBackColor = true;
+            this.btn_view.Click += new System.EventHandler(this.btn_view_Click);
             // 
             // btn_delete
             // 
@@ -87,6 +89,7 @@
             this.btn_delete.TabIndex = 4;
             this.btn_delete.Text = "Delete a Record";
             this.btn_delete.UseVisualStyleBackColor = true;
+            this.btn_delete.Click += new System.EventHandler(this.btn_delete_Click);
             // 
             // btn_exit
             // 
@@ -97,6 +100,7 @@
             this.btn_exit.TabIndex = 5;
             this.btn_exit.Text = "EXIT!";
             this.btn_exit.UseVisualStyleBackColor = true;
+            this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
             // 
             // btn_search
             // 
@@ -107,6 +111,7 @@
             this.btn_search.TabIndex = 5;
             this.btn_search.Text = "SEARCH";
             this.btn_search.UseVisualStyleBackColor = true;
+            this.btn_search.Click += new System.EventHandler(this.btn_search_Click);
             // 
             // Form1
             // 
