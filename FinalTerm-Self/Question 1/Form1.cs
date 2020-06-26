@@ -17,39 +17,32 @@ namespace Question_1
             InitializeComponent();
         }
 
-        private void btn_insert_Click(object sender, EventArgs e)
-        {
+        private void btn_insert_Click(object sender, EventArgs e){
             frm_insert insertion_form = new frm_insert();
             insertion_form.Show();
         }
-
-        private void btn_update_Click(object sender, EventArgs e)
-        {
+        private void btn_update_Click(object sender, EventArgs e){
             FRM_update_rec updation_form = new FRM_update_rec();
             updation_form.Show();
         }
-
-        private void btn_view_Click(object sender, EventArgs e)
-        {
+        private void btn_view_Click(object sender, EventArgs e){
             FRM_view_rec view_Rec = new FRM_view_rec();
             view_Rec.Show();
         }
-
         private void btn_delete_Click(object sender, EventArgs e)
         {
             FRM_delete_rec delete_Rec = new FRM_delete_rec();
             delete_Rec.Show();
         }
-
-        private void btn_search_Click(object sender, EventArgs e)
-        {
+        private void btn_search_Click(object sender, EventArgs e){
             FRM_search search = new FRM_search();
             search.Show();
         }
+        private void btn_exit_Click(object sender, EventArgs e){Application.Exit();}
 
-        private void btn_exit_Click(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
-            Application.Exit();
+
         }
     }
 }
