@@ -94,6 +94,9 @@
     <EmbeddedResource Include="frm_insert.resx">
       <DependentUpon>frm_insert.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FRM_search.resx">
+      <DependentUpon>FRM_search.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FRM_update_rec.resx">
       <DependentUpon>FRM_update_rec.cs</DependentUpon>
     </EmbeddedResource>

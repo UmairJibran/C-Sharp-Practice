@@ -28,3 +28,4 @@ D:\GitHub\C-Sharp-Practice\FinalTerm-Self\Question 1\bin\Debug\System.Numerics.V
 D:\GitHub\C-Sharp-Practice\FinalTerm-Self\Question 1\bin\Debug\MySql.Data.xml
 D:\GitHub\C-Sharp-Practice\FinalTerm-Self\Question 1\obj\Debug\Question 1.exe.config
 D:\GitHub\C-Sharp-Practice\FinalTerm-Self\Question 1\obj\Debug\Question 1.csproj.CopyComplete
+D:\GitHub\C-Sharp-Practice\FinalTerm-Self\Question 1\obj\Debug\Question_1.FRM_search.resources

@@ -20,20 +20,31 @@ namespace Question_1
         MySqlConnection conn = new MySqlConnection("datasource=localhost;port=3306;username=root;password=root");
         private void frm_insert_Load(object sender, EventArgs e)
         {
-            conn.Open();
-            if (conn.State==ConnectionState.Open)
-            {
-                txtbx_id.Focus();
-            }
-            else
-            {
-                MessageBox.Show("Database couldn't be opened!");
-            }
+            txtbx_id.Focus();
         }
 
         private void btn_insert_record_Click(object sender, EventArgs e)
         {
-
+            conn.Open();
+            if (conn.State == ConnectionState.Open)
+            {
+                int id = int.Parse(txtbx_id.Text);
+                string first_name = txtbx_fname.Text;
+                string last_name = txtbx_lname.Text;
+                int age = int.Parse(txtbx_age.Text);
+                string sql = "INSERT INTO `final_exam`.`student_table` (`student_id`, `student_first_name`, `student_last_namel`, `student_age`) VALUES (" + id + ", '" + first_name + "', '" + last_name + "', " + age + ");";
+                MySqlCommand cmd = new MySqlCommand(sql,conn);
+                cmd.ExecuteNonQuery();
+                txtbx_id.Clear();
+                txtbx_fname.Clear();
+                txtbx_lname.Clear();
+                txtbx_age.Clear();
+                conn.Close();
+            }
+            else
+            {
+                MessageBox.Show("Connection Failed");
+            }
         }
     }
 }
