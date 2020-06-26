@@ -16,5 +16,15 @@ namespace Question_1
         {
             InitializeComponent();
         }
+
+        private void frm_insert_Load(object sender, EventArgs e)
+        {
+            txtbx_id.Focus();
+        }
+
+        private void btn_insert_record_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

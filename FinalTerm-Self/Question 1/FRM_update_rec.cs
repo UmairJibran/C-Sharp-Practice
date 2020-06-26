@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace Question_1
 {
-    public partial class Form1 : Form
+    public partial class FRM_update_rec : Form
     {
-        public Form1()
+        public FRM_update_rec()
         {
             InitializeComponent();
-        }
-
-        private void btn_insert_Click(object sender, EventArgs e)
-        {
-            frm_insert insertion_form = new frm_insert();
-            insertion_form.Show();
         }
     }
 }
