@@ -34,6 +34,7 @@
             this.btn_view = new System.Windows.Forms.Button();
             this.btn_delete = new System.Windows.Forms.Button();
             this.btn_exit = new System.Windows.Forms.Button();
+            this.btn_search = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -90,18 +91,29 @@
             // btn_exit
             // 
             this.btn_exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_exit.Location = new System.Drawing.Point(9, 199);
+            this.btn_exit.Location = new System.Drawing.Point(162, 199);
             this.btn_exit.Name = "btn_exit";
-            this.btn_exit.Size = new System.Drawing.Size(303, 100);
+            this.btn_exit.Size = new System.Drawing.Size(150, 75);
             this.btn_exit.TabIndex = 5;
             this.btn_exit.Text = "EXIT!";
             this.btn_exit.UseVisualStyleBackColor = true;
+            // 
+            // btn_search
+            // 
+            this.btn_search.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_search.Location = new System.Drawing.Point(9, 199);
+            this.btn_search.Name = "btn_search";
+            this.btn_search.Size = new System.Drawing.Size(150, 75);
+            this.btn_search.TabIndex = 5;
+            this.btn_search.Text = "SEARCH";
+            this.btn_search.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(327, 307);
+            this.ClientSize = new System.Drawing.Size(327, 283);
+            this.Controls.Add(this.btn_search);
             this.Controls.Add(this.btn_exit);
             this.Controls.Add(this.btn_delete);
             this.Controls.Add(this.btn_view);
@@ -123,6 +135,7 @@
         private System.Windows.Forms.Button btn_view;
         private System.Windows.Forms.Button btn_delete;
         private System.Windows.Forms.Button btn_exit;
+        private System.Windows.Forms.Button btn_search;
     }
 }
 

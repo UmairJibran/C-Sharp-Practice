@@ -1,6 +1,6 @@
 ﻿namespace Question_1
 {
-    partial class FRM_view_rec
+    partial class FRM_search
     {
         /// <summary>
         /// Required designer variable.
@@ -28,17 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // FRM_view_rec
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(343, 450);
-            this.Name = "FRM_view_rec";
-            this.Text = "FRM_view_rec";
-            this.ResumeLayout(false);
-
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Text = "FRM_search";
         }
 
         #endregion
