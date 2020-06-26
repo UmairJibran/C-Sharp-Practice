@@ -29,5 +29,13 @@ namespace Question_2
             FRM_upd upd = new FRM_upd();
             upd.Show();
         }
+        private void btn_view_Click(object sender, EventArgs e){
+            FRM_view view = new FRM_view();
+            view.Show();
+        }
+        private void btn_search_Click(object sender, EventArgs e){
+            FRM_search search = new FRM_search();
+            search.Show();
+        }
     }
 }

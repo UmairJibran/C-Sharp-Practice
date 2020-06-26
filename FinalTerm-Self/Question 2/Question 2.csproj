@@ -65,11 +65,23 @@
     <Compile Include="FRM_insert.Designer.cs">
       <DependentUpon>FRM_insert.cs</DependentUpon>
     </Compile>
+    <Compile Include="FRM_search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_search.Designer.cs">
+      <DependentUpon>FRM_search.cs</DependentUpon>
+    </Compile>
     <Compile Include="FRM_upd.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FRM_upd.Designer.cs">
       <DependentUpon>FRM_upd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_view.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_view.Designer.cs">
+      <DependentUpon>FRM_view.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -82,8 +94,14 @@
     <EmbeddedResource Include="FRM_insert.resx">
       <DependentUpon>FRM_insert.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FRM_search.resx">
+      <DependentUpon>FRM_search.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FRM_upd.resx">
       <DependentUpon>FRM_upd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_view.resx">
+      <DependentUpon>FRM_view.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

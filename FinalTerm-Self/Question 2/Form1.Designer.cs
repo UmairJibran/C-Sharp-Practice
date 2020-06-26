@@ -84,6 +84,7 @@
             this.btn_view.TabIndex = 1;
             this.btn_view.Text = "View";
             this.btn_view.UseVisualStyleBackColor = true;
+            this.btn_view.Click += new System.EventHandler(this.btn_view_Click);
             // 
             // btn_search
             // 
@@ -93,6 +94,7 @@
             this.btn_search.TabIndex = 1;
             this.btn_search.Text = "Search";
             this.btn_search.UseVisualStyleBackColor = true;
+            this.btn_search.Click += new System.EventHandler(this.btn_search_Click);
             // 
             // Form1
             // 
