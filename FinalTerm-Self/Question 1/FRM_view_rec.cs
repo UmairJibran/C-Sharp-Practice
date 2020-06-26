@@ -18,19 +18,15 @@ namespace Question_1
             InitializeComponent();
         }
         MySqlConnection conn = new MySqlConnection("datasource=localhost;port=3306;username=root;password=root");
-        private void FRM_view_rec_Load(object sender, EventArgs e)
-        {
-            try
-            {
+        private void FRM_view_rec_Load(object sender, EventArgs e){
+            try{
                 MySqlDataAdapter adapter = new MySqlDataAdapter("SELECT * FROM final_exam.student_table", conn);
                 conn.Open();
                 DataSet ds = new DataSet();
                 adapter.Fill(ds, "student_table");
                 dataGridView1.DataSource = ds.Tables["student_table"];
                 conn.Close();
-            }
-            catch (Exception ex)
-            {
+            }catch (Exception ex){
                 MessageBox.Show(ex.Message);
             }
         }
