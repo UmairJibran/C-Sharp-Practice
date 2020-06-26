@@ -37,6 +37,7 @@
             this.ClientSize = new System.Drawing.Size(343, 450);
             this.Name = "FRM_view_rec";
             this.Text = "FRM_view_rec";
+            this.Load += new System.EventHandler(this.FRM_view_rec_Load);
             this.ResumeLayout(false);
 
         }

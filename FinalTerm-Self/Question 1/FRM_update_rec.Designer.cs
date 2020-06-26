@@ -144,6 +144,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FRM_update_rec";
             this.Text = "Update a Record";
+            this.Load += new System.EventHandler(this.FRM_update_rec_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
