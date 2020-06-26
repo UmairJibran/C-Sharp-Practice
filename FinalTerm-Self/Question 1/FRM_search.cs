@@ -25,9 +25,10 @@ namespace Question_1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            string name = txtbx_name.Text;
             try
             {
-                MySqlDataAdapter adapter = new MySqlDataAdapter("SELECT * FROM final_exam.student_table", conn);
+                MySqlDataAdapter adapter = new MySqlDataAdapter("SELECT * FROM final_exam.student_table WHERE student_first_name LIKE '%"+name+ "%' OR student_last_name LIKE '%" + name+"%'", conn);
                 conn.Open();
                 DataSet ds = new DataSet();
                 adapter.Fill(ds, "student_table");

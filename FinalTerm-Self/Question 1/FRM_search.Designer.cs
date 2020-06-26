@@ -38,7 +38,7 @@
             // 
             // btn_search
             // 
-            this.btn_search.Location = new System.Drawing.Point(236, 80);
+            this.btn_search.Location = new System.Drawing.Point(448, 54);
             this.btn_search.Name = "btn_search";
             this.btn_search.Size = new System.Drawing.Size(75, 23);
             this.btn_search.TabIndex = 0;
@@ -68,24 +68,24 @@
             // 
             // txtbx_name
             // 
-            this.txtbx_name.Location = new System.Drawing.Point(188, 54);
+            this.txtbx_name.Location = new System.Drawing.Point(233, 54);
             this.txtbx_name.Name = "txtbx_name";
-            this.txtbx_name.Size = new System.Drawing.Size(123, 20);
+            this.txtbx_name.Size = new System.Drawing.Size(209, 20);
             this.txtbx_name.TabIndex = 3;
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(18, 109);
+            this.dataGridView1.Location = new System.Drawing.Point(19, 83);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(293, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(505, 150);
             this.dataGridView1.TabIndex = 4;
             // 
             // FRM_search
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(323, 272);
+            this.ClientSize = new System.Drawing.Size(535, 240);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.txtbx_name);
             this.Controls.Add(this.label2);
